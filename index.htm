@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="estilo1.css">
+    <title>Cambiando Contenidos con JS</title>
+</head>
+<body>
+    <script type="text/javascript" src=funcs.js>
+    </script>
+    <center>
+        <h1 id="titulo">SIMI</h1>
+        <br>
+        <img id="pix" src="car.jpg" height="370" width="300">       
+        <br>
+        <p id="infr">LO MISMO PERO MAS BARATO</p>
+        <br>
+
+        <input type="button" value="CAMBIO ?" 
+          onclick ="cTodo1();"
+           onmouseover="this.style.borderColor='black';" 
+           onmouseout="this.style.borderColor='silver';" />
+
+        <input type="button" value="CAMBIO DR" 
+           onclick ="cTodo2();"
+           onmouseover="this.style.borderColor='black';" 
+           onmouseout="this.style.borderColor='silver';" />
+        <input type="button" value="CREADOR" 
+          onclick ="cTodo3();"
+           onmouseover="this.style.borderColor='black';" 
+           onmouseout="this.style.borderColor='silver';" />
+
+        <input type="button" value="Oculta Logo" 
+          onclick="Oculta();" />
+        <input type="button" value="Muestra Logo" 
+          onclick ="Muestra();" />
+        <br>
+        <img id="logito" src="log.png">       
+    </center>    
+    </body>
+</html>
